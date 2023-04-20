@@ -1,10 +1,10 @@
-package idusw.springboot.boradthymleaf;
+package idusw.springboot.boardjhm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BoradThymleafApplicationTests {
+class BoardJhmApplicationTests {
 
     @Test
     void contextLoads() {

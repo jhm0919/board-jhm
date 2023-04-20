@@ -1,8 +1,8 @@
-package idusw.springboot.boradthymleaf.service;
+package idusw.springboot.boardjhm.service;
 
-import idusw.springboot.boradthymleaf.domain.Memo;
-import idusw.springboot.boradthymleaf.entity.MemoEntity;
-import idusw.springboot.boradthymleaf.repository.MemoRepository;
+import idusw.springboot.boardjhm.domain.Memo;
+import idusw.springboot.boardjhm.entity.MemoEntity;
+import idusw.springboot.boardjhm.repository.MemoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
