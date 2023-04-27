@@ -1,7 +1,6 @@
 package idusw.springboot.boardjhm.controller;
 
 import idusw.springboot.boardjhm.domain.Member;
-import idusw.springboot.boardjhm.repository.MemberRepository;
 import idusw.springboot.boardjhm.service.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest
-public class MemberControllerTests {
+public class MemberControllerTests { // Unit Test : JUnit - Test Framework
     @Autowired
     MemberService memberService;
     /*

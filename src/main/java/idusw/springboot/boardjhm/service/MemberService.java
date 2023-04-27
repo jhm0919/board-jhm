@@ -10,4 +10,6 @@ public interface MemberService {
     List<Member> readList();
     int update(Member m);
     int delete(Member m);
+
+    Member login(Member m);
 }

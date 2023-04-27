@@ -21,12 +21,10 @@ public class MemberEntity {
     // Oracle : GenerationType.SEQUENCE, Mysql : GenerationType.IDENTITY
     // Mysql : auto increment, Oracle : sequence - 자동증가 식별번호
     private Long seq;
-
     @Column(length = 30, nullable = false)
     private String email;
     @Column(length = 20, nullable = false)
     private String name;
     @Column(length = 20, nullable = false)
     private String pw;
-
 }
